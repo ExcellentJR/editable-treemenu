@@ -1,6 +1,6 @@
-# cotalogue
+# treeMenu
 
-> A Vue.js project
+> A treemenu component which you can edit it's item by contextMenu based on Vue.js 2.0;
 
 ## Build Setup
 
