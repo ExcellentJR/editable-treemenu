@@ -1,6 +1,9 @@
 # cotalogue
 
-> A Vue.js project
+> A treeMenu component which you can edit by contextMenu based on Vue.js2.0; 
+
+#demo
+![image](https://github.com/ExcellentJR/editable-treemenu/blob/master/static/lib/img/treeMenu.png)
 
 ## Build Setup
 
