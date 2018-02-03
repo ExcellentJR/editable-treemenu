@@ -1,7 +1,7 @@
 # cotalogue
 
-> A treeMenu component which you can edit by contextMenu based on Vue.js2.0; 
-> 与一般的偏展示的树形菜单不同，该组件一个可以和右键菜单结合起来的可以新增、删除、重命名的树形菜单，该组件未采用递归调用自己的方式；
+> A treeMenu component which you can edit by contextMenu based on Vue.js2.0;<br/>   
+> 与一般的偏展示的树形菜单不同，该组件一个可以和右键菜单结合起来的可以新增、删除、重命名的树形菜单，该组件未采用递归调用自己的方式；<br/>   
 > 持续更新中...
 
 #demo
