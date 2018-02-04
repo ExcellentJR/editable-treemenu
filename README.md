@@ -5,7 +5,9 @@
 > 持续更新中...
 
 #demo
-![image](https://github.com/ExcellentJR/editable-treemenu/blob/master/static/lib/img/treeMenu.png)
+![image](https://github.com/ExcellentJR/editable-treemenu/blob/master/static/lib/img/%E9%92%88%E5%AF%B9%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E5%8F%B3%E9%94%AE.png)
+![image](https://github.com/ExcellentJR/editable-treemenu/blob/master/static/lib/img/%E9%92%88%E5%AF%B9%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%B3%E9%94%AE.png)
+
 
 ## Build Setup
 
