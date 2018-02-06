@@ -27,10 +27,11 @@
 						<i v-if="item.data.nodeType===2"
 							aria-hidden="true"
 							class="fa fa-circle"
+							:title="['未处理','处理成功','处理失败'][item.data.status]"
 							:style="{position: 'absolute',
 									left: (20 * item.data.level - 14) + 'px',
 									top: '9px',
-									color: '#0f0',
+									color: ['#ddd','#0f0','#f00'][item.data.status],
 									fontSize: '10px'}">
 						</i>
 						<span class="name-container"
@@ -179,8 +180,9 @@ export default {
 							isSelected: false,
 							level: _this.data[index].data.level + 1,
 							nodeId: _this.data.length + 1,
-							nodeName: '新建任务',
+							nodeName: '已处理的任务',
 							nodeType: 2,
+							status: 1,
 							parentId: _this.data[index].data.nodeId
 						},
 						numberOfChildren: 0
