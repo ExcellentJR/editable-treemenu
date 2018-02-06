@@ -2,7 +2,7 @@
 	<article>
 		<div class="row">
 			<div class="col-md-12">
-				<button type="button" class="btn btn-default btn-sm">{{msg}}</button>
+				<!-- <button type="button" class="btn btn-default btn-sm">{{msg}}</button> -->
 				<div style="width: 240px;height: 300px;">
 					<cotalogue ref="cotalogue" :data="data"></cotalogue>
 				</div>
