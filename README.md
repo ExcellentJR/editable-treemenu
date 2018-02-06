@@ -12,6 +12,7 @@
 ![image](https://github.com/ExcellentJR/editable-treemenu/blob/master/static/lib/img/taskContextMenu.png) <br/> 
 ![image](https://github.com/ExcellentJR/editable-treemenu/blob/master/static/lib/img/createNewFolder.png)
 ![image](https://github.com/ExcellentJR/editable-treemenu/blob/master/static/lib/img/createNewTask.png)
+![image](https://github.com/ExcellentJR/editable-treemenu/blob/master/static/lib/img/data.png)
 
 
 ## Build Setup
