@@ -19,9 +19,9 @@
 			@on-cancel="newName.isshow=false,newName.formval.folderName='',newName.formval.id=null">
 			<div class="form-horizontal">
 				<div class="form-group">
-					<label class="col-md-2 control-label"><em>*</em>目录名称:</label>
+					<label class="col-md-2 control-label"><em>*</em>&nbsp目录名称:</label>
 					<div class="col-md-9">
-						<input type="text" class="form-control" v-model="newName.formval.folderName" :placeholder="'请输入目录名称'" />
+						<input type="text" class="form-control" maxlength="70" v-model="newName.formval.folderName" :placeholder="'请输入目录名称'" />
 					</div>
 				</div>
 			</div>
@@ -37,13 +37,13 @@
 			@on-cancel="newFolder.isshow=false,newFolder.formval.folderName='',newFolder.formval.id=null">
 			<div class="form-horizontal">
 				<div class="form-group">
-					<label class="col-md-2 control-label"><em>*</em>目录名称:</label>
+					<label class="col-md-2 control-label"><em>*</em>&nbsp目录名称:</label>
 					<div class="col-md-9">
-						<input type="text" class="form-control" v-model="newFolder.formval.folderName" :placeholder="'请输入目录名称'" />
+						<input type="text" class="form-control" maxlength="70" v-model="newFolder.formval.folderName" :placeholder="'请输入目录名称'" />
 					</div>
 				</div>
 				<div class="form-group">
-					<label class="col-md-2 control-label"><em>*</em>父级目录:</label>
+					<label class="col-md-2 control-label">父级目录:</label>
 					<div class="col-md-9">
 						<input type="text" class="form-control" disabled v-model="newFolder.formval.parentFolder" />
 					</div>
@@ -61,13 +61,13 @@
 			@on-cancel="newTask.isshow=false,newTask.formval.taskName='',newTask.formval.id=null">
 			<div class="form-horizontal">
 				<div class="form-group">
-					<label class="col-md-2 control-label"><em>*</em>任务名称:</label>
+					<label class="col-md-2 control-label"><em>*</em>&nbsp任务名称:</label>
 					<div class="col-md-9">
-						<input type="text" class="form-control" v-model="newTask.formval.taskName" :placeholder="'请输入任务名称'" />
+						<input type="text" class="form-control" maxlength="70" v-model="newTask.formval.taskName" :placeholder="'请输入任务名称'" />
 					</div>
 				</div>
 				<div class="form-group">
-					<label class="col-md-2 control-label"><em>*</em>父级目录:</label>
+					<label class="col-md-2 control-label">父级目录:</label>
 					<div class="col-md-9">
 						<input type="text" class="form-control" disabled v-model="newTask.formval.parentFolder" />
 					</div>
@@ -363,6 +363,10 @@ export default {
 	}
 	.vertical-center-modal .ivu-modal{
 		top: 0;
+	}
+	em {
+		color: #f00;
+		font-size: 13px;
 	}
 </style>
 
